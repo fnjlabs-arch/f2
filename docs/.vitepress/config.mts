@@ -7,8 +7,8 @@ const pkg = require('../package.json')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "F2",
-  description: "Fast 2 Every",
+  title: "SadSha Social Downloader",
+  description: "SadSha Social Downloader — asynchronous multi-platform downloader",
   base: "/",
   lastUpdated: true,
   cleanUrls: true,
@@ -43,7 +43,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/f2-logo-with-shadow-svg@1.0x.svg', width: 24, height: 24 },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Johnserf-Seed/f2', ariaLabel: 'GitHub' },
+      { icon: 'github', link: 'https://github.com/fnjlabs-arch/f2', ariaLabel: 'GitHub' },
       { icon: 'discord', link: 'https://discord.gg/3PhtPmgHf8', ariaLabel: 'Discord' },
       { icon: 'gmail', link: 'mailto:support@f2.wiki', ariaLabel: 'Email' },
     ],
@@ -57,7 +57,7 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present Johnserf Seed'
     },
     editLink: {
-      pattern: 'https://github.com/Johnserf-Seed/f2/edit/main/docs/:path',
+      pattern: 'https://github.com/fnjlabs-arch/f2/edit/v0.0.1.8-pw3/docs/:path',
       text: 'Edit this page on GitHub'
     },
   },

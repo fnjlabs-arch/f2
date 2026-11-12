@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "f2"
+name = "sadsha-social-downloader"
 dynamic = ["version"]
-description = "🚀Asynchronous based full-platform download tool"
+description = "🚀 SadSha Social Downloader — asynchronous multi-platform download tool"
 readme = "README.md"
 license = "Apache-2.0"
-repository = "https://github.com/Johnserf-Seed/f2"
+repository = "https://github.com/fnjlabs-arch/f2"
 requires-python = ">=3.11"
 authors = [
     { name = "Johnserf-Seed", email = "support@f2.wiki" },
@@ -46,7 +46,7 @@ keywords = [
     "downloader",
     "internet",
     "download",
-    "f2",
+    "sadsha-social-downloader",
     "http",
     "https",
     "ws",
@@ -109,14 +109,15 @@ dev = [
 ]
 
 [project.scripts]
+sadsha-downloader = "f2.cli.cli_commands:main"
 f2 = "f2.cli.cli_commands:main"
 
 [project.urls]
-Homepage = "https://github.com/Johnserf-Seed/f2"
+Homepage = "https://github.com/fnjlabs-arch/f2"
 Documentation = "https://f2.wiki/"
 Chat = "https://discord.gg//3PhtPmgHf8"
-"Source Code" = "https://github.com/Johnserf-Seed/f2"
-"Issue Tracker" = "https://github.com/Johnserf-Seed/f2/issues"
+"Source Code" = "https://github.com/fnjlabs-arch/f2"
+"Issue Tracker" = "https://github.com/fnjlabs-arch/f2/issues"
 
 [tool.hatch.version]
 path = "f2/__init__.py"
@@ -130,6 +131,7 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.wheel]
+packages = ["f2"]
 exclude = [
     "f2/languages/*/LC_MESSAGES/*.po",
     "f2/apps/*/test/",

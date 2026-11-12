@@ -65,7 +65,7 @@ def is_outdated(current: str, latest: str) -> Optional[bool]:
 
 async def check_f2_version(force_check: bool = False) -> None:
     """
-    检查F2的版本是否最新
+    检查SadSha的版本是否最新
 
     Args:
         force_check (bool): 是否强制检查，忽略配置文件中的设置
@@ -94,7 +94,7 @@ async def check_f2_version(force_check: bool = False) -> None:
             console.print(
                 Panel(
                     message,
-                    title=_("F2 低版本警告"),
+                    title=_("SadSha 低版本警告"),
                     subtitle=_("请及时更新"),
                     style="bold red",
                     border_style="red",
@@ -105,7 +105,7 @@ async def check_f2_version(force_check: bool = False) -> None:
             console.print(
                 Panel(
                     message,
-                    title=_("F2 版本检查"),
+                    title=_("SadSha 版本检查"),
                     style="bold green",
                     border_style="green",
                 )
@@ -116,7 +116,7 @@ async def check_f2_version(force_check: bool = False) -> None:
                     _("无法比较版本号：{0} 与 {1}").format(
                         f2.__version__, latest_version
                     ),
-                    title=_("F2 版本检查"),
+                    title=_("SadSha 版本检查"),
                     style="bold yellow",
                     border_style="yellow",
                 )
@@ -126,7 +126,7 @@ async def check_f2_version(force_check: bool = False) -> None:
         console.print(
             Panel(
                 message,
-                title=_("F2 版本检查网络超时"),
+                title=_("SadSha 版本检查网络超时"),
                 style="bold yellow",
                 border_style="yellow",
             )

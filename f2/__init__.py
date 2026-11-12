@@ -6,8 +6,8 @@ __description_cn__ = "基于[red]异步[/red]的[green]全平台下载工具"
 __description_en__ = (
     "An [yellow]asynchronous[/yellow], [green]multi-platform downloader[/green]"
 )
-__reponame__ = "f2"
-__repourl__ = "https://github.com/Johnserf-Seed/f2"
+__reponame__ = "sadsha-social-downloader"
+__repourl__ = "https://github.com/fnjlabs-arch/f2"
 __docurl__ = "https://f2.wiki"
 
 APP_CONFIG_FILE_PATH = "conf/app.yaml"

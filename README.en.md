@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="https://github.com/Johnserf-Seed/f2/raw/main/docs/public/f2-logo-with-shadow-svg@0.5x.svg" alt="Logo">
+  <img src="https://github.com/fnjlabs-arch/f2/raw/main/docs/public/f2-logo-with-shadow-svg@0.5x.svg" alt="Logo">
 </p>
 
 [![Downloads](https://pepy.tech/badge/f2/month)](https://pepy.tech/project/f2)
 [![PyPI version](https://badge.fury.io/py/f2.svg)](https://badge.fury.io/py/f2)
-[![Dev Branch](https://badgen.net/badge/branch/v0.0.1.8-pw3/blue)](https://github.com/Johnserf-Seed/f2/tree/v0.0.1.8-pw3)
+[![Dev Branch](https://badgen.net/badge/branch/v0.0.1.8-pw3/blue)](https://github.com/fnjlabs-arch/f2/tree/v0.0.1.8-pw3)
 [![Discord](https://img.shields.io/discord/1146473603450282004?label=Discord)](https://discord.gg/3PhtPmgHf8)
 [![codecov](https://codecov.io/gh/Johnserf-Seed/f2/graph/badge.svg?token=T9DH4QPZSS)](https://codecov.io/gh/Johnserf-Seed/f2)
 [![TikHub](https://img.shields.io/badge/%E8%B5%9E%E5%8A%A9%E5%95%86-TikHub-orange?style=flat-square&logo=tiktok)](https://beta-web.tikhub.io/users/signup?referral_code=6hLcGD94)
-[![APACHE-2.0](https://img.shields.io/github/license/johnserf-seed/f2)](https://github.com/Johnserf-Seed/f2/blob/main/LICENSE)
+[![APACHE-2.0](https://img.shields.io/github/license/johnserf-seed/f2)](https://github.com/fnjlabs-arch/f2/blob/main/LICENSE)
 
 
-[🇨🇳 简体中文 readme](https://github.com/Johnserf-Seed/f2/blob/main/README.md) • [🇬🇧 English readme](https://github.com/Johnserf-Seed/f2/blob/main/README.en.md)
+[🇨🇳 简体中文 readme](https://github.com/fnjlabs-arch/f2/blob/main/README.md) • [🇬🇧 English readme](https://github.com/fnjlabs-arch/f2/blob/main/README.en.md)
 
 > The repository shows the development branch by default (currently `v0.0.1.8-pw3`), which may contain changes that are not yet released on PyPI. For the released version, refer to the documentation at [f2.wiki](https://f2.wiki).
 
-`F2` is a [`Python` library](https://pypi.org/project/f2/) that provides multi-platform content downloading and API data processing. It supports platforms like `DouYin`、`TikTok`、`Twitter`、`WeiBo`, and is easily adaptable to more platforms.
+`SadSha Social Downloader` is a [`Python` library](https://pypi.org/project/f2/) that provides multi-platform content downloading and API data processing. (Based on `f2` by Johnserf-Seed.) It supports platforms like `DouYin`、`TikTok`、`Twitter`、`WeiBo`, and is easily adaptable to more platforms.
 
 <img src='https://github.com/user-attachments/assets/92a70f27-c93f-422e-ba9a-040060323654'>
 
@@ -101,7 +101,7 @@ When downloading or upgrading to a different version of `F2`, please note the fo
   - 🔔 **Enable Notification Push**
     To enable application notifications, set the `enable_bark` parameter to `true` in the [F2 configuration file](https://f2.wiki/site-config#%E4%B8%BB%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6).
   - 📄 **More Change Details**
-    Please see the full [ChangeLog](https://github.com/Johnserf-Seed/f2/blob/main/CHANGELOG.md#0017---2024-12-31).
+    Please see the full [ChangeLog](https://github.com/fnjlabs-arch/f2/blob/main/CHANGELOG.md#0017---2024-12-31).
 </details>
 
 <details>
@@ -120,7 +120,7 @@ When downloading or upgrading to a different version of `F2`, please note the fo
   - 🛡️ **Algorithm Optimization**
     `douyin` now uses the `ab` algorithm by default for requests. (The full version of the `ab` algorithm will be open-sourced soon)
   - 📄 **More Change Details**
-    👉 [View ChangeLog](https://github.com/Johnserf-Seed/f2/blob/main/CHANGELOG.md#0016---2024-05-04)
+    👉 [View ChangeLog](https://github.com/fnjlabs-arch/f2/blob/main/CHANGELOG.md#0016---2024-05-04)
 </details>
 
 <details>
@@ -141,7 +141,7 @@ When downloading or upgrading to a different version of `F2`, please note the fo
     Fixed the issue with `douyin` collection page links not being parsed.
     👉 [Learn more](#抖音合集作品)
   - 📄 **More Change Details**
-    👉 [View ChangeLog](https://github.com/Johnserf-Seed/f2/blob/main/CHANGELOG.md#0015---2024-04-04)
+    👉 [View ChangeLog](https://github.com/fnjlabs-arch/f2/blob/main/CHANGELOG.md#0015---2024-04-04)
 </details>
 
 ## 📑 Documentation
@@ -158,11 +158,11 @@ The [project documentation](https://f2.wiki/) is still being improved and may be
 - Added `Socket` proxy support.
 - Added support for `Cookie` pool, `Proxy` pool, `User-Agent` pool, etc.
 - Added the `F2` WebAPI version.
-- [More plans](https://github.com/Johnserf-Seed/f2/discussions/203)
+- [More plans](https://github.com/fnjlabs-arch/f2/discussions/203)
 
 ## 🐛 Updates
 
-[ChangeLog](https://github.com/Johnserf-Seed/f2/blob/main/CHANGELOG.md)
+[ChangeLog](https://github.com/fnjlabs-arch/f2/blob/main/CHANGELOG.md)
 
 ## 💡 Applications & Features
 
@@ -433,7 +433,7 @@ For the complete list of features, please refer to the [API Documentation](https
 
   ### Douyin Live Danmaku
 
-  <video src="https://github.com/Johnserf-Seed/f2/assets/40727745/500d1eaf-59ba-44ba-849b-666c0ddf8469" width="70%" height="auto" autoplay loop style="border-radius: 8px; overflow: hidden;"></video>
+  <video src="https://github.com/fnjlabs-arch/f2/assets/40727745/500d1eaf-59ba-44ba-849b-666c0ddf8469" width="70%" height="auto" autoplay loop style="border-radius: 8px; overflow: hidden;"></video>
 </details>
 
 <details>
@@ -464,7 +464,7 @@ For the complete list of features, please refer to the [API Documentation](https
 
   ### TikTok Live Danmaku
 
-  <video src="https://github.com/Johnserf-Seed/f2/assets/40727745/500d1eaf-59ba-44ba-849b-666c0ddf8469" width="70%" height="auto" autoplay loop style="border-radius: 8px; overflow: hidden;"></video>
+  <video src="https://github.com/fnjlabs-arch/f2/assets/40727745/500d1eaf-59ba-44ba-849b-666c0ddf8469" width="70%" height="auto" autoplay loop style="border-radius: 8px; overflow: hidden;"></video>
   ps. Too lazy to record, using Douyin's danmaku, the effect is the same.
 </details>
 
@@ -1018,7 +1018,7 @@ For the complete list of features, please refer to the [API Documentation](https
 
 ## 💰 Sponsor
 
-<a href="https://tikhub.io/"><img style="border-radius:20px" src="https://github.com/Johnserf-Seed/f2/assets/40727745/70a67dd1-dccb-44a9-b635-c29a950f1daf"></a>
+<a href="https://tikhub.io/"><img style="border-radius:20px" src="https://github.com/fnjlabs-arch/f2/assets/40727745/70a67dd1-dccb-44a9-b635-c29a950f1daf"></a>
 
 [TikHub](https://tikhub.io/) is a provider of premium data interface services. You can get free credits by signing up daily. You can use my signup invite link: [https://beta-web.tikhub.io/users/signup?referral_code=6hLcGD94](https://beta-web.tikhub.io/users/signup?referral_code=6hLcGD94) or Invitation code: `6hLcGD94` to get `$2` credit by signing up and recharging.
 
@@ -1031,7 +1031,7 @@ For the complete list of features, please refer to the [API Documentation](https
 - Project address: https://github.com/TikHubIO/
 ## 👨‍💻 Contribute
 
-If you're interested in contributing code to `F2`, please refer to the [contributing guide](https://github.com/Johnserf-Seed/f2/blob/v0.0.1.8-pw3/CONTRIBUTING.en.md). Please open `PR`s against the current development branch `v0.0.1.8-pw3` (see the `Dev Branch` badge at the top), not `main`.
+If you're interested in contributing code to `F2`, please refer to the [contributing guide](https://github.com/fnjlabs-arch/f2/blob/v0.0.1.8-pw3/CONTRIBUTING.en.md). Please open `PR`s against the current development branch `v0.0.1.8-pw3` (see the `Dev Branch` badge at the top), not `main`.
 
 ## 🙏 Acknowledgements
 

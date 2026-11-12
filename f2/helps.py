@@ -27,7 +27,10 @@ def get_help(app_name: str) -> None:
 
 
 def main() -> None:
-    console.print(f"\n:rocket: [bold]f2 {f2.__version__} :rocket:", justify="center")
+    console.print(
+        f"\n:rocket: [bold]SadSha Social Downloader {f2.__version__} :rocket:",
+        justify="center",
+    )
     console.print(f"\n[i]{f2.__description_cn__}", justify="center")
     console.print(f"[i]{f2.__description_en__}", justify="center")
     console.print(
@@ -37,14 +40,14 @@ def main() -> None:
     # 使用方法
     table = Table.grid(padding=1, pad_edge=True)
     table.add_column("Usage", no_wrap=True, justify="left", style="bold")
-    table.add_row("[b]f2[/b] [magenta]<apps> [/magenta][cyan][COMMAND]")
-    table.add_row(_("例：f2 dy -h/--help 获取douyin的命令帮助"))
+    table.add_row("[b]sadsha-downloader[/b] [magenta]<apps> [/magenta][cyan][COMMAND]")
+    table.add_row(_("例：sadsha-downloader dy -h/--help 获取douyin的命令帮助"))
     table.add_row(
-        "[b]f2[/b] [magenta][Option] [/magenta][cyan][Args][/cyan] [magenta]<apps> [/magenta][cyan][COMMAND]"
+        "[b]sadsha-downloader[/b] [magenta][Option] [/magenta][cyan][Args][/cyan] [magenta]<apps> [/magenta][cyan][COMMAND]"
     )
-    table.add_row(_("例：f2 -d DEBUG dy 日志级别为调试运行"))
+    table.add_row(_("例：sadsha-downloader -d DEBUG dy 日志级别为调试运行"))
     table.add_row("")
-    table.add_row("[b]f2[/b] [magenta]config-wizard[/magenta]")
+    table.add_row("[b]sadsha-downloader[/b] [magenta]config-wizard[/magenta]")
     table.add_row(_("🧙‍♂️ 启动配置向导，交互式生成配置文件"))
     console.print(
         Panel(table, border_style="bold", title="使用方法 | Usage", title_align="left")
